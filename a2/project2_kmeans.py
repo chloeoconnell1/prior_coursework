@@ -1,3 +1,14 @@
+/* Kmeans Algorithm: 
+    This clusters data points so that each data point is assigned to a cluster.
+    The objective of the kmeans algorithm is to minimize the average squared distance between each point and its cluster.
+    The algorithm accepts three arguments:
+
+    K: the number of clusters
+    Input_file: the input file
+    Max_Iterations: the maximum number of iterations
+    (Optional) Centroid_file: the file containing the Starting centroids of the clusters. 
+*/
+
 import numpy as np
 import sys
 import pandas as pd
